@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add Restaurant</title>
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="img/logo.png" alt="Logo" />
+      </div>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="investor.html">Investor Relations</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="signup.html">Signup</a></li>
+      </ul>
+    </header>
+
+    <main class="form-container">
+      <h2>Add Your Restaurant</h2>
+      <form action="#" method="post">
+        <label for="name">Restaurant Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="location">Location:</label>
+        <input type="text" id="location" name="location" required />
+
+        <label for="cuisine">Cuisine Type:</label>
+        <input type="text" id="cuisine" name="cuisine" required />
+
+        <label for="image">Image URL:</label>
+        <input type="url" id="image" name="image" />
+
+        <label for="description">Short Description:</label>
+        <textarea
+          id="description"
+          name="description"
+          rows="4"
+          required
+        ></textarea>
+
+        <button type="submit">Add Restaurant</button>
+      </form>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 | All rights reserved</p>
+    </footer>
+  </body>
+</html>
