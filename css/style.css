@@ -1,5 +1,5 @@
 /* General Reset */
-* {
+•⁠  ⁠{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -24,41 +24,7 @@ header {
 
 .logo img {
     height: 50px;
-}
-
-header ul {
-    display: flex;
-    list-style: none;
-}
-
-header ul li {
-    margin-left: 20px;
-}
-
-header ul li a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-    transition: color 0.3s ease;
-}
-
-header ul li a:hover {
-    color: #ffd700;
-}
-
-/* Header */
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    background-color: #e23744;
-    color: white;
-}
-
-.logo img {
-    height: 30px;  /* Reduced size */
-    width: auto;   /* Maintain aspect ratio */
+    width: auto;
 }
 
 header ul {
@@ -95,7 +61,7 @@ main section {
 
 /* First Section (hero section) */
 main section:first-of-type {
-    background: url('/img/bg.png') no-repeat center center/cover;
+    background: url('../img/bg.png') no-repeat center center/cover;
     color: white;
     min-height: 60vh;
     display: flex;
@@ -176,8 +142,10 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+/* Contact/Signup Form */
 .form-container {
-  max-width: 600px;
+  max-width: 400px;
   margin: 30px auto;
   background: #fff;
   padding: 20px;
@@ -221,50 +189,6 @@ footer {
 .form-container button:hover {
   background-color: #b71c1c;
 }
-.form-container {
-  max-width: 400px;
-  margin: 30px auto;
-  background: #fff;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-}
-
-.form-container h2 {
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-.form-container form {
-  display: flex;
-  flex-direction: column;
-}
-
-.form-container label {
-  margin-bottom: 5px;
-  font-weight: bold;
-}
-
-.form-container input {
-  margin-bottom: 15px;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-}
-
-.form-container button {
-  background-color: #d32f2f;
-  color: #fff;
-  border: none;
-  padding: 12px;
-  border-radius: 4px;
-  cursor: pointer;
-  font-size: 16px;
-}
-
-.form-container button:hover {
-  background-color: #b71c1c;
-}
 
 .form-container p {
   text-align: center;
@@ -278,6 +202,8 @@ footer {
 .form-container a:hover {
   text-decoration: underline;
 }
+
+/* Investor Section */
 .investor-container {
   max-width: 800px;
   margin: 30px auto;
@@ -317,6 +243,8 @@ footer {
 .investor-section a:hover {
   text-decoration: underline;
 }
+
+/* Restaurant Grid */
 .restaurant-container {
   max-width: 1000px;
   margin: 30px auto;
@@ -356,6 +284,8 @@ footer {
 .restaurant-card p {
   margin: 5px 0;
 }
+
+/* About Section */
 .about-section {
   max-width: 800px;
   margin: 40px auto;
